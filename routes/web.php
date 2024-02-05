@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Feed::class);
+Route::get('/', Feed::class)->name('feed');
